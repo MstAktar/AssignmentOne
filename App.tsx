@@ -6,7 +6,7 @@ export default function App() {
       <View style={styles.wrapper}>
       <Image source={require("./image/logo.jpg")} style={styles.topImage} />
         <Text style={{ color: "gray", paddingVertical: 15 }}>Sent successfully to 
-        <Text style={{fontWeight: 'bold'}}>Talha Zubayer
+        <Text style={{fontWeight: 'bold'}}>Talha Zubayer 
         </Text>
         </Text> 
         <Text style={styles.amount}> $100.00</Text>
