@@ -6,7 +6,7 @@ export default function App() {
       <View style={styles.wrapper}>
       <Image source={require("./image/logo.jpg")} style={styles.topImage} />
         <Text style={{ color: "gray", paddingVertical: 15 }}>Sent successfully to 
-        <Text style={{fontWeight: 'bold'}}>Talha Zubayer 
+        <Text style={{fontWeight: 'bold', color: 'gray'}}> Talha Zubayer 
         </Text>
         </Text> 
         <Text style={styles.amount}> $100.00</Text>
@@ -58,18 +58,19 @@ const styles = StyleSheet.create({
   },
   wrapper: {
     flex: 1,
+    flexDirection: "column",
     alignItems: 'center',
     paddingHorizontal: 30,
     paddingVertical: 90,
     backgroundColor: "white",
     marginHorizontal: 30,
-    marginVertical: 30,
+    marginVertical: 20,
     borderRadius: 10,
     height: "100%",
   },
   topImage: {
-    width: 50,
-    height: 50,
+    width: 100,
+    height: 100,
   },
   amount: {
     fontSize: 30,
